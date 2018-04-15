@@ -31,5 +31,7 @@ def full?(board)
   board.all? {|input| input == "X" || input == "O"}
   end
   
+def draw?(board)
+  
  
   
