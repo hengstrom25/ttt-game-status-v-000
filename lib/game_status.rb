@@ -33,5 +33,14 @@ def full?(board)
   
 def draw?(board)
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
   
