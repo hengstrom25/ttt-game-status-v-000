@@ -46,6 +46,12 @@ def over?(board)
     return true
   end
 end
+
+def winner?(board)
+  if draw?(board)
+    return nil
+  end
+end
   
   
   
