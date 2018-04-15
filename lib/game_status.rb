@@ -28,8 +28,7 @@ false
 end
 
 def full?(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  [board].all? do |full|
+  board.all? do |input|
     if [board] == "X" || [board] == "O"
   end
 end
