@@ -33,7 +33,6 @@ def full?(board)
     if [board] == "X" || [board] == "O"
   end
 end
-false
 end
   
  
