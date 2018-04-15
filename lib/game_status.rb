@@ -27,7 +27,13 @@ end
 false
 end
 
-
+def full?(board)
+  [index].all? do |full|
+    if [index] == "X" || [index == "O"]
+  end
+end
+false
+end
   
  
   
