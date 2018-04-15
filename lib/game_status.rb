@@ -28,7 +28,7 @@ false
 end
 
 def full?(board)
-  board.all?{ |input| input == "X" 
+  board.all?{ |input| input == "X" || input == "O"
   end
 end
 end
