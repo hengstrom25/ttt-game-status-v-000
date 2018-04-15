@@ -28,9 +28,9 @@ false
 end
 
 def full?(board)
-  index = 
-  [index].all? do |full|
-    if [index] == "X" || [index == "O"]
+  board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
+  [board].all? do |full|
+    if [board] == "X" || [board] == "O"
   end
 end
 false
